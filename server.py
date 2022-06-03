@@ -21,7 +21,7 @@ API_TOKEN = os.getenv("TELEGRAM_API_TOKEN")
 # )
 ACCESS_ID = os.getenv("TELEGRAM_ACCESS_ID")
 
-bot = Bot(token="5171387188:AAGe56DHWNFCCYa6pGYS0ktYwFU1NDzZ4jo")
+bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 # dp.middleware.setup(AccessMiddleware(ACCESS_ID))
 
